@@ -78,7 +78,7 @@ class CourseItem extends StatelessWidget{
               )
             ),
             onPressed: () { 
-              Navigator.of(context).push(MaterialPageRoute(builder: (context)=>DetailPage()));
+              Navigator.of(context).push(MaterialPageRoute(builder: (context)=>DetailPage(course)));
              },
             child:Text('Start') ,)
             )
