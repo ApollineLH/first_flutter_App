@@ -3,9 +3,9 @@ import 'package:test_1/constants/colors.dart';
 
 import '../../../models/course.dart';
 
-class CouseDescription extends StatelessWidget {
+class CourseDescription extends StatelessWidget {
   final Course course;
-  CouseDescription(this.course);
+  CourseDescription(this.course);
   @override
   Widget build(BuildContext context) {
     return Container(
@@ -27,7 +27,7 @@ class CouseDescription extends StatelessWidget {
           SizedBox(height: 15,),
           Text(course.title,style: TextStyle(fontWeight: FontWeight.bold, color: kFont, fontSize: 35)),
           SizedBox(height: 15,),
-         Text('Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac faucibus purus. ', style: TextStyle( color: kFontLight, fontSize: 16, wordSpacing: 2)),
+          Text('Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac faucibus purus. ', style: TextStyle( color: kFontLight, fontSize: 16, wordSpacing: 2)),
 
 
 
